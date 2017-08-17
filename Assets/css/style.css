@@ -1,0 +1,58 @@
+body {
+    margin: auto;
+    background-color: whitesmoke;
+    border: 3px solid black;
+}
+
+.div {
+    background-color: whitesmoke;
+}
+
+.div.nav {
+    float: right;
+    height: 10%;
+    width: 20%;
+}
+
+.noStyle {
+    list-style-type: none;
+    text-align: right;
+}
+
+.li {
+    display: inline;
+}
+
+.name {
+    float: left;
+    background-color: #4aaaa5;
+}
+
+.container {
+    clear: both;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    background-image: url("/Users/joshuambedilion/Desktop/weeklyHomework/Basic-Portfolio/Assets/images/retina_wood/retina_wood_@2X.png");
+}
+
+.div.about {
+    float: left;
+    height: 80%;
+    width: 40%;
+}
+
+.hding2 {
+    color: #4aaaa5;
+}
+
+.div.connect {
+    height: 25%;
+    width: 20%;
+    float: left;
+}
+
+.foot {
+    clear: both;
+}
+
