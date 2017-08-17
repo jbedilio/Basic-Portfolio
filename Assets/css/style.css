@@ -33,7 +33,7 @@ body {
     height: 80%;
     width: 80%;
     margin: auto;
-    background-image: url("/Users/joshuambedilion/Desktop/weeklyHomework/Basic-Portfolio/Assets/images/retina_wood/retina_wood_@2X.png");
+    background-image: url("../images/retina_wood/retina_wood_@2X.png");
 }
 
 .div.about {
