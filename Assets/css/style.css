@@ -76,6 +76,22 @@ body {
 
 }
 
+.portfolio {
+    float: left;
+    height: 70%;
+    width: 50%;
+    margin-left: 5%;
+    background-color: #d6d6dc;
+}
+
+.div.contact {
+    float: left;
+    height: 70%;
+    width: 50%;
+    margin-left: 5%;
+    background-color: #d6d6dc;
+}
+
 .div.connect {
     float: left;
     height: 30%;
