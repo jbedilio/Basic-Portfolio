@@ -43,7 +43,12 @@ body {
 .li {
     display: inline;
     color: #4aaaa5;
+}
 
+.lp {
+    width: 50%;
+    margin: 0;
+    margin-left: 4%;
 }
 
 .container {
