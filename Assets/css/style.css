@@ -6,7 +6,7 @@ html {
 body {
     margin: auto;
     background-color: whitesmoke;
-    border: 1px solid black;
+    border: .0625em solid black;
 }
 
 .div {
@@ -31,6 +31,7 @@ body {
     height: 10%;
     width: 20%;
     margin-left: 35%;
+    margin-top: 2%;
 }
 
 .noStyle1 {
@@ -77,8 +78,7 @@ body {
 }
 
 .p1 {
-    margin-right: 2%;
-    
+    margin: 2%;
 }
 
 .portfolio {
@@ -117,31 +117,35 @@ body {
 }
 
 .github {
-    height: 70px;
-    width: 70px;
+    height: 4.375em;
+    width: 4.375em;
     padding-left: 25%;
     float: left;
 }
 
 .lnkdin {
-    height: 70px;
-    width: 70px;
+    height: 4.375em;
+    width: 4.375em;
     float: left;
 }
 
 .stack {
-    height: 60px;
-    width: 60px;
+    height: 3.75em;
+    width: 3.75em;
     padding-top: 0.9%;
     padding-left: 1%;
     float: left;
 }
 
 .foot {
+    clear: both;
     height: 25%;
     width: 100%;
     background-color: #4aaaa5;
     text-align: center;
-    clear: both;
+    font-size: 0.75em;
+    color: #d6d6dc;
+    padding-top: 5%;
+    padding-bottom: 4%;
 }
 
