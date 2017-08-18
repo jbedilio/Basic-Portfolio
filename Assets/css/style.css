@@ -45,12 +45,6 @@ body {
     color: #4aaaa5;
 }
 
-.lp {
-    width: 50%;
-    margin: 0;
-    margin-left: 4%;
-}
-
 .container {
     clear: both;
     height: 90%;
@@ -94,13 +88,14 @@ body {
     background-color: #d6d6dc;
 }
 
-.styleless {
-    list-style-type: none;
-
+.portpic {
+    float: left;
+    width: 50%;
 }
 
-.portpic {
+.labels {
     width: 30%;
+    background-color: #4aaaa5;
 }
 
 .div.contact {
