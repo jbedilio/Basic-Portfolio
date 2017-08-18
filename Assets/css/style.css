@@ -64,8 +64,8 @@ body {
 
 .hding2 {
     color: #4aaaa5;
-    text-shadow: black;
     font-family: Georgia, Times, Times New Roman, serif;
+    padding-left: 2%;
 }
 
 .mypic {
@@ -87,6 +87,15 @@ body {
     width: 50%;
     margin-left: 5%;
     background-color: #d6d6dc;
+}
+
+.styleless {
+    list-style-type: none;
+
+}
+
+.portpic {
+    width: 30%;
 }
 
 .div.contact {
@@ -145,7 +154,8 @@ body {
     text-align: center;
     font-size: 0.75em;
     color: #d6d6dc;
-    padding-top: 5%;
-    padding-bottom: 4%;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    border-top: 0.75em solid #9191a1;
 }
 
