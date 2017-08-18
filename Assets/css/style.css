@@ -9,15 +9,27 @@ body {
     border: .0625em solid black;
 }
 
-a:link {
+.mono:link {
     text-decoration: none;
 }
 
-a:visited {
+.mono:visited {
     text-decoration: none;
 }
 
-a:hover {
+.mono:hover {
+    font-family: monospace;
+}
+
+.labels1:link {
+    text-decoration: none;
+}
+
+.labels1:visited {
+    text-decoration: none;
+}
+
+.labels1:hover {
     text-decoration: underline;
 }
 
@@ -105,11 +117,13 @@ a:hover {
     width: 50%;
 }
 
-.labels {
+.labels2 {
     width: 30%;
     background-color: #4aaaa5;
     color: #d6d6dc;
     text-decoration: none;
+    margin-left: 10%;
+    text-align: center;
 }
 
 .div.contact {
