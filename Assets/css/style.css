@@ -46,6 +46,11 @@ body {
     text-align: center;
 }
 
+.div.name:hover {
+    background-color: #d6d6dc;
+    color: #4aaaa5;
+}
+
 .hding1 {
     font-family: Georgia, Times, Times New Roman, serif;
 }
@@ -71,6 +76,7 @@ body {
 
 .container {
     clear: both;
+    overflow: auto;
     height: 90%;
     width: 90%;
     margin: auto;
@@ -154,29 +160,52 @@ body {
 }
 
 .github {
-    height: 4.375em;
-    width: 4.375em;
-    padding-left: 25%;
+    height: 4em;
+    width: 4em;
+    padding-left: 26%;
+    padding-top: 1.5%;
     float: left;
 }
 
 .lnkdin {
-    height: 4.375em;
-    width: 4.375em;
+    height: 4em;
+    width: 4em;
     float: left;
 }
 
 .stack {
-    height: 3.75em;
-    width: 3.75em;
-    padding-top: 0.9%;
-    padding-left: 1%;
+    height: 4em;
+    width: 4em;
     float: left;
+}
+
+.name {
+    width: 50%;
+    padding: 1% 3% 1% 3%;
+    margin-left: 2%;
+}
+
+.email {
+    width: 50%;
+    padding: 1% 3% 1% 3%;
+    margin-left: 2%;
+}
+
+.message {
+    height: 10em;
+    width: 65%;
+    padding: 1% 3% 1% 3%;
+    margin-left: 2%;
+}
+
+.button {
+    width: 20%;
+    margin-bottom: 1%;
+    margin-left: 2%;
 }
 
 .foot {
     clear: both;
-    height: 25%;
     width: 100%;
     background-color: #4aaaa5;
     text-align: center;
@@ -186,4 +215,3 @@ body {
     padding-bottom: 2%;
     border-top: 0.75em solid #9191a1;
 }
-
