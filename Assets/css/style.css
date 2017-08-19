@@ -157,6 +157,7 @@ body {
 
 .div.contact {
     float: left;
+    postion: relative;
     height: 70%;
     width: 50%;
     margin-left: 5%;
