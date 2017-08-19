@@ -21,19 +21,6 @@ body {
     font-family: monospace;
 }
 
-.labels2:link {
-    text-decoration: none;
-}
-
-.labels2:visited {
-    text-decoration: none;
-}
-
-.labels2:hover {
-    background-color: #d6d6dc;
-    color: #4aaaa5;
-}
-
 .div {
     background-color: whitesmoke;
 }
@@ -142,11 +129,30 @@ body {
 
 .labels2 {
     width: 30%;
-    background-color: #4aaaa5;
-    color: #d6d6dc;
+    background-color: #d6d6dc;
+    color: #4aaaa5;
     text-decoration: none;
     margin-left: 10%;
     text-align: center;
+}
+
+.labels2:link {
+    text-decoration: none;
+}
+
+.labels2:visited {
+    background-color: #4aaaa5;
+    color: black;
+}
+
+.labels2:hover {
+    background-color: #4aaaa5;
+    color: #d6d6dc;
+}
+
+.labels2:active {
+    background-color: #4aaaa5;
+    color: black;
 }
 
 .div.contact {
@@ -164,6 +170,24 @@ body {
     margin-left: 10%;
     text-align: center;
     background-color: #d6d6dc;
+    /*animation: fade 5s linear 2s infinite alternate;
+    -webkit-animation: fade 5s linear 2s infinite alternate;*/
+}
+
+.connect {
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+    background-color: #d6d6dc;
+    animation: fade 5s linear 2s infinite alternate;
+    -webkit-animation: fade 3s linear 1s infinite alternate;
+}
+
+@keyframes fade {
+    0% {opacity: 1;}
+    100% {opacity: 0.0;}
 }
 
 .hding3 {
