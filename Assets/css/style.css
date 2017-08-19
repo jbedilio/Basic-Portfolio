@@ -21,16 +21,17 @@ body {
     font-family: monospace;
 }
 
-.labels1:link {
+.labels2:link {
     text-decoration: none;
 }
 
-.labels1:visited {
+.labels2:visited {
     text-decoration: none;
 }
 
-.labels1:hover {
-    text-decoration: underline;
+.labels2:hover {
+    background-color: #d6d6dc;
+    color: #4aaaa5;
 }
 
 .div {
@@ -47,6 +48,8 @@ body {
 }
 
 .div.name:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
     background-color: #d6d6dc;
     color: #4aaaa5;
 }
@@ -118,9 +121,23 @@ body {
     background-color: #d6d6dc;
 }
 
-.portpic {
+.portpic1 {
     float: left;
     width: 50%;
+}
+
+.portpic2 {
+    float: left;
+    width: 50%;
+}
+
+.portpic2:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.labels1 {
+    text-decoration: none;
 }
 
 .labels2 {
